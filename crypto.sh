@@ -5,7 +5,8 @@
 # coinmarketcap api.
 if [ -z $1 ]
 then
-	echo "USAGE: ./crypto.sh [SYMBOL]"	
+	echo "USAGE: ./crypto.sh [SYMBOL]"
+	exit
 fi
 
 curl https://api.coinmarketcap.com/v1/ticker/?convert=EUR -s > /tmp/toto
