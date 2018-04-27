@@ -7,6 +7,8 @@ Be sure to read the script's header as it might depend on some extra packages in
 [stock.sh](#stocksh)
 
 ## Crypto.sh
+This script prints info about any cryptocurrency supported by the coinmarketcap.com api.
+
 **Requirements:**
 
 	curl
@@ -34,6 +36,7 @@ Be sure to read the script's header as it might depend on some extra packages in
         market_cap_eur: 26100885350.0
 
 ## Stock.sh
+This script prints info about a stock symbol and tries to search it if it doesn't exist. the infos are parsed from marketwatch.com and charting.nasdaq.com for the gnuplot graphs
 **Requirements:**
 
 	curl recode gnuplot
