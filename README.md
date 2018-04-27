@@ -9,7 +9,7 @@ Be sure to read the script's header as it might depend on some extra packages in
 ## Crypto.sh
 **Requirements:**
 
-		curl
+	curl
 **USAGE:**
 
 	./crypto.sh [SYMBOL]
@@ -36,7 +36,7 @@ Be sure to read the script's header as it might depend on some extra packages in
 ## Stock.sh
 **Requirements:**
 
-		curl recode gnuplot
+	curl recode gnuplot
 **USAGE:**
 
 	./stock.sh [SYMBOL | Company name]
