@@ -3,6 +3,7 @@ This Repo nests all the small scripts I have written for my personnal use. Feel 
 Be sure to read the script's header as it might depend on some extra packages in some cases.
 
 [crypto.sh](#cryptosh)
+
 [stock.sh](#stocksh)
 
 ## Crypto.sh
